@@ -1,4 +1,4 @@
-import React from "react";
+
 
 import { Facebook, Twitter, Instagram, Linkedin, X } from "lucide-react"; // Import Lucide icons
 import { Link } from "react-router-dom";
