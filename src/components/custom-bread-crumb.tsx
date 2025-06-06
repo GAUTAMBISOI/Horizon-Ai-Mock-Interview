@@ -13,7 +13,6 @@ interface CustomBreadCrumbProps {
   breadCrumbPage: string;
   breadCrumpItems?: { link: string; label: string }[];
 }
-
 export const CustomBreadCrumb = ({
   breadCrumbPage,
   breadCrumpItems,
