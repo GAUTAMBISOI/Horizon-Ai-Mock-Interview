@@ -1,4 +1,4 @@
-import { Facebook,  Instagram, Linkedin,  X } from "lucide-react"; // Import Lucide icons
+import { Factory, FileBadge, InspectionPanel, X } from "lucide-react"; // Import Lucide icons
 import { Link } from "react-router-dom";
 import { Container } from "@/components/container";
 import { MainRoutes } from "@/lib/helpers";
@@ -61,7 +61,8 @@ export const Footer = () => {
           <div>
             <h3 className="font-bold text-lg mb-4">About Us</h3>
             <p>
-              We are GHAV(Gautam, Harsh, Ayush, Vikas) Btech cse final year student from dev bhoomi uttrakhand university dehradun
+              We are GHAV(Gautam, Harsh, Ayush, Vikas) Btech cse final year
+              student from dev bhoomi uttrakhand university dehradun
             </p>
           </div>
 
@@ -70,13 +71,11 @@ export const Footer = () => {
             <h3 className="font-bold text-lg mb-4">Services</h3>
             <ul>
               <FooterLink to="/services/interview-prep">
-               We can offer Full Stack Services
+                We can offer Full Stack Services
               </FooterLink>
-              <FooterLink to="/services/career-coaching">
-               by
-              </FooterLink>
+              <FooterLink to="/services/career-coaching">by</FooterLink>
               <FooterLink to="/services/resume-building">
-               Final year student from dbuu
+                Final year student from dbuu
               </FooterLink>
             </ul>
           </div>
@@ -88,22 +87,22 @@ export const Footer = () => {
             <div className="flex gap-4">
               <SocialLink
                 href="https://www.facebook.com/DBUUDehradun/"
-                icon={<Facebook size={24} />}
+                icon={<FileBadge size={24} />}
                 hoverColor="text-blue-500"
               />
-              <SocialLink 
+              <SocialLink
                 href="https://twitter.com"
                 icon={<X size={26} />}
                 hoverColor="text-blue-400 "
               />
               <SocialLink
                 href="https://www.instagram.com/gautam_bisoi/"
-                icon={<Instagram size={24} />}
+                icon={<InspectionPanel size={24} />}
                 hoverColor="text-pink-500"
               />
               <SocialLink
                 href="https://www.linkedin.com/in/gautam-bisoi-938733248/"
-                icon={<LinkedinIcon size={24} />}
+                icon={<Factory size={24} />}
                 hoverColor="text-blue-700"
               />
             </div>
