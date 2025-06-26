@@ -1,6 +1,4 @@
-import React from "react";
-
-import { Facebook, Twitter, Instagram, Linkedin, X } from "lucide-react"; // Import Lucide icons
+import { Facebook,  Instagram, Linkedin,  X } from "lucide-react"; // Import Lucide icons
 import { Link } from "react-router-dom";
 import { Container } from "@/components/container";
 import { MainRoutes } from "@/lib/helpers";
@@ -89,7 +87,7 @@ export const Footer = () => {
             <p className="mb-4">DBUU, Dehradun, 248171</p>
             <div className="flex gap-4">
               <SocialLink
-                href="https://facebook.com"
+                href="https://www.facebook.com/DBUUDehradun/"
                 icon={<Facebook size={24} />}
                 hoverColor="text-blue-500"
               />
@@ -99,13 +97,13 @@ export const Footer = () => {
                 hoverColor="text-blue-400 "
               />
               <SocialLink
-                href="https://instagram.com"
+                href="https://www.instagram.com/gautam_bisoi/"
                 icon={<Instagram size={24} />}
                 hoverColor="text-pink-500"
               />
               <SocialLink
-                href="https://linkedin.com"
-                icon={<Linkedin size={24} />}
+                href="https://www.linkedin.com/in/gautam-bisoi-938733248/"
+                icon={<LinkedinIcon size={24} />}
                 hoverColor="text-blue-700"
               />
             </div>

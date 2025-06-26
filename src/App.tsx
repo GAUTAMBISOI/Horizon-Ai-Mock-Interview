@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import React from 'react'
+
 import { PublicLayout } from "@/layouts/public-layout";
 import HomePage from "@/routes/home";
 import AuthenticationLayout from "@/layouts/auth-layout";
@@ -13,7 +13,9 @@ import { CreateEditPage } from "./routes/create-edit-page";
 import { MockLoadPage } from "./routes/mock-load-page";
 import { MockInterviewPage } from "./routes/mock-interview-page";
 import { Feedback } from "./routes/feedback";
-
+import Contact from "./routes/contact-us";
+import About from "./routes/about-us";
+import Services from "./routes/services";
 
 
 
@@ -25,6 +27,9 @@ const App = () => {
         {/* public routes */}
       <Route element={<PublicLayout />}>
           <Route index element={<HomePage />} />
+          <Route path="/contact" element={<Contact/>}/>
+            <Route path="/about" element={<About/>}/>
+              <Route path="/services" element={<Services/>}/>
         </Route>
         {/* authentication layout */}
         <Route element={<AuthenticationLayout />}>
@@ -39,6 +44,9 @@ const App = () => {
             </ProtectRoutes>
           }
         >
+          {/* Contact us  */}
+
+
           {/* add all the protect routes */}
           <Route element={<Generate />} path="/generate">
             <Route index element={<Dashboard />} />
