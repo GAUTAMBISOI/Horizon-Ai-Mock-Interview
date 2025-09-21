@@ -59,10 +59,9 @@ export const Footer = () => {
 
           {/* Second Column: About Us */}
           <div>
-            <h3 className="font-bold text-lg mb-4">About Us</h3>
+            <h3 className="font-bold text-lg mb-4">About Me</h3>
             <p>
-              We are GHAV(Gautam, Harsh, Ayush, Vikas) Btech cse final year
-              student from dev bhoomi uttrakhand university dehradun
+              I am Gautam bisoi, i btech cse graduate
             </p>
           </div>
 
@@ -75,7 +74,7 @@ export const Footer = () => {
               </FooterLink>
               <FooterLink to="/services/career-coaching">by</FooterLink>
               <FooterLink to="/services/resume-building">
-                Final year student from dbuu
+                Currently working as an Intern 
               </FooterLink>
             </ul>
           </div>
@@ -83,10 +82,10 @@ export const Footer = () => {
           {/* Fourth Column: Address and Social Media */}
           <div>
             <h3 className="font-bold text-lg mb-4">Contact Us</h3>
-            <p className="mb-4">DBUU, Dehradun, 248171</p>
+            <p className="mb-4"> Dehradun, 248171</p>
             <div className="flex gap-4">
               <SocialLink
-                href="https://www.facebook.com/DBUUDehradun/"
+                href="https://www.facebook.com/gautam.bisoi.77"
                 icon={<FileBadge size={24} />}
                 hoverColor="text-blue-500"
               />
